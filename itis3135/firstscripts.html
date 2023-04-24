@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ITIS3135 | William Sitthiphone's Wacky Salamander | Home</title>
+    <title>ITIS3135 | William Sitthiphone's Wacky Salamander | First Scripts</title>
     <link rel="stylesheet" href="styles/default.css" type="text/css">
+    <script src="scripts/defaultscripts.js"></script>
 </head>
 <body>
     <header>
@@ -20,8 +21,16 @@
         </nav>
     </header>
     <main>
-        <h2>Home</h2>
-        <h3>Welcome to the home site. More to come soon!</h3>
+        <h2>First Scripts</h2>
+        <h3><script>displayDate();</script></h3>
+        <form action="scripts/defaultscripts.js">
+            <p><label for="name">Enter your name:</label>
+            <input type="text" id="name" required placeholder="John Doe"></p>
+            <p><label for="mood">How are you feeling today?</label>
+            <input type="text" id="mood" required placeholder="Good/Bad/Sad/Mad/etc"></p>
+            <p><button type="reset">Reset</button> <button type="submit">Submit</button></p>
+        </form>
+        
     </main>
     <footer>
         <nav>

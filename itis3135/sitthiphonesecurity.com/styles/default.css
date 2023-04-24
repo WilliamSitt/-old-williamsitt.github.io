@@ -1,0 +1,32 @@
+a
+{
+    color: rgb(63, 136, 197);
+    text-decoration: none;
+}
+a:visited
+{
+    color: rgb(21, 5, 120);
+    text-decoration: none;
+}
+body
+{
+    background-color: rgb(13, 19, 33);
+    color: rgb(255, 186, 8);
+    font-family: 'Silkscreen', cursive;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+h1, h2
+{
+    color: rgb(208, 0, 0);
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+header, figure, footer
+{
+    text-align: center;
+}
+ul
+{
+    list-style-type: square;
+}

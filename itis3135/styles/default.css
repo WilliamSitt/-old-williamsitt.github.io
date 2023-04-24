@@ -1,0 +1,57 @@
+a
+{
+    color: rgb(208, 0, 0);
+    text-decoration: none;
+}
+body
+{
+    background-color: rgb(13, 19, 33);
+    color: rgb(63, 136, 197);
+    font-family: 'Silkscreen', cursive;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+button
+{
+    background-color: rgb(10, 0, 90);
+    color: rgb(201, 224, 243);
+    font-family: 'Silkscreen', cursive;
+}
+h1, h2, h3
+{
+    color: rgb(255, 186, 8);
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+header, figure, footer
+{
+    text-align: center;
+}
+input
+{
+    border-color: rgb(63, 136, 197);
+    border-radius: 5px;
+    border-style: outset;
+    border-width: 3px;
+    font-family: 'Silkscreen', cursive;
+}
+table tr:nth-child(odd) {
+    background-color: #1a258a;
+    color: #fff;
+}
+table tr:nth-child(even) {
+    background-color: #3ebecf;
+    color: #fff;
+}
+table tr:first-child {
+    background-color: #04073a;
+    color: #fff;
+}
+select
+{
+    border-color: rgb(63, 136, 197);
+    border-radius: 8px;
+    border-style:solid ;
+    border-width: 5px;
+    font-family: 'Silkscreen', cursive;
+}
